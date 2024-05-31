@@ -4,6 +4,6 @@ De Wysiecki AM, Sanchez-Carnero N, Barnett A, Cortés F, Milessi AC, Trobbiani G
 
 Analyses cannot be fully reproduced from scratch because a fraction of occurrences have confidentiality agreements in place and could not be released. However, models can be reproduced from the calibration step onward using this calibration data.
 
-Open global occurrence data and calibration data are available at https://drive.google.com/drive/folders/1BvmFW0StZW8yoShi4eQBCltUYqOn7LA6?usp=sharing.
+Open global occurrence data and calibration data are available at ...
 
 Please contact me at agustindewy@gmail.com if you have any questions.
