@@ -2,6 +2,8 @@ This repository contains code to reproduce analyses in De Wysiecki et al. (in pr
 
 De Wysiecki AM, Sanchez-Carnero N, Barnett A, Cortés F, Milessi AC, Trobbiani GA & Jaureguizar AJ. in press. Utilizing global presence data to indirectly estimate the potential distribution of apex predators in a data-scarce region: a case study of copper and sand tiger sharks in the Southwest Atlantic. Submitted to Hydrobiologia.
 
-All necessary data for reproducing the analyses, including calibration points, are accessible through the Dryad Digital Repository: https://doi.org/10.5061/dryad.fj6q5740p
+Analyses cannot be fully reproduced from scratch because a fraction of occurrences have confidentiality agreements in place and could not be released. However, models can be reproduced from the calibration step onward using this calibration data.
+
+Open global occurrence data and calibration data are available at https://drive.google.com/drive/folders/1BvmFW0StZW8yoShi4eQBCltUYqOn7LA6?usp=sharing.
 
 Please contact me at agustindewy@gmail.com if you have any questions.
