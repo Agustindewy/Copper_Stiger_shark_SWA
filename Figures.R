@@ -588,13 +588,14 @@ ggplot() +
   geom_tile(data = df, aes(x = x, y = y, fill = as.factor(layer))) + scale_fill_manual(values = Col) +
   geom_polygon(data = coast0, aes(x = long, y = lat, group = group), color = 'grey10', fill = 'white', linewidth = 0.15) +
   geom_path(data = provincias, aes(x = long, y = lat, group = group), color = 'grey70', linewidth = 0.15, linetype = "dashed") +
-  scale_y_continuous(name = NULL, breaks = c(-46, -42, -38), labels = c('46º', '42º', '38º')) +
-  scale_x_continuous(name = NULL, breaks = c(-66, -62, -58), labels = c('66º', '62º', '58º')) +
-  coord_equal(xlim = c(-68, -56), ylim = c(-48, -36), expand = F) +
+  geom_path(data = Border, aes(x = long, y = lat, group = group), color = 'grey20', linewidth = 0.2) +
+  scale_y_continuous(name = NULL, breaks = c(-43, -39, -35), labels = c('43º', '39º', '35º')) +
+  scale_x_continuous(name = NULL, breaks = c(-64, -59, -54), labels = c('64º', '59º', '54º')) +
+  coord_equal(xlim = c(-66, -52), ylim = c(-45, -33), expand = F) +
   theme(panel.background = element_rect(fill = NULL), panel.grid = element_blank(), 
         legend.position = 'none', axis.text = element_text(size = 8),
         panel.border = element_rect(colour = 'black', fill = NA, linewidth = 0.5)) 
-ggsave('Figure 5b.tiff', dpi = 900, width = 10, height = 10, units = 'cm', device = grDevices::tiff)
+ggsave('Figure 5b.tiff', dpi = 900, width = 11, height = 10, units = 'cm', device = grDevices::tiff)
 
 
 #------------------------------------ Figure S1.1 ---------------------------------------
